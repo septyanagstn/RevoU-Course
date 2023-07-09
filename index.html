@@ -1,38 +1,199 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Website Test</title>
-        <style>
-            table, th, td {
-                border: 1px solid black;
-            }
-        </style>
-    </head>
-    <body>
-        <h1>Hello Gais!!!</h1>
-        <p>Asri Husnul Rosadi <i>pacarku</i></p>
+<html lang="en">
 
-        <ul>
-            <li>cantik</li>
-            <li>baik</li>
-        </ul>
+<head>
+    <title>Mini Project RevoU</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-        <table>
-            <tr>
-                <th>No</th>
-                <th>Makanan Favorit</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td rowspan="2">Coklat</td>
-            </tr>
-            <tr>
-                <td>2</td>
-            </tr>
-        </table>
+<body>
+    <nav class="container">
+        <img src="img/logo.png" alt="">
+        <a href="index.html">
+            <button id="Home">Home</button>
+        </a>
+        <a href="#OurPackages">
+            <button id="Package">Our Package</button>
+        </a>
+        <a href="#CallUs">
+            <button id="Call">Call Us</button>
+        </a>
+    </nav>
+    <div class="header" id="home-head">
+        <h1 class="title">Top Rated E-Groceries Shop in Indonesia</h1>
+        <p>Every Day with best ingredients</p>
+    </div>
+    <section id="home">
+        <div class="image">
+            <div class="slideshow">
+                <div class="slides">
+                    <img src="img/store.png">
+                </div>
+                <div class="slides">
+                    <img src="img/vegetables.png">
+                </div>
+                <div class="slides">
+                    <img src="img/fruit.png">
+                </div>
+                <div class="slides">
+                    <img src="img/meat.png">
+                </div>
+                <div class="slides">
+                    <img src="img/bread & bakery.png">
+                </div>
+                <div class="slides">
+                    <img src="img/beverages.png">
+                </div>
+                <div class="slides">
+                    <img src="img/snacks.png">
+                </div>
+            </div>
+            <p><i>*setiap hari beli sayur buah yang fresh disini</i></p>
+            <div class="customer">
+                <div class="customer-image">
+                    <img src="img/customer.jpg" alt="">
+                </div>
+                <div class="customer-detail">
+                    <p><b>Asri Husnul Rosadi</b></p>
+                    <p><i>Pelajar/Mahasiswa, 19</i></p>
+                </div>
+            </div>
+        </div>
+        <div class="form">
+            <div class="head-form">
+                <h2>Contact Us</h2>
+                <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima</p>
+            </div>
+            </br>
+            <div>
+                <form class="body-form">
+                    <label for="name"><b>Your Name:</b></label><br>
+                    <input type="text" id="name" name="name" placeholder="First and last name"><br><br>
+                    <label for="email"><b>Email Address:</b></label><br>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com"><br><br>
+                    <label for="phone"><b>Phone Number:</b></label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="08xxxxxxxxxx"><br><br>
+                    <label for="message"><b>Message:</b></label><br>
+                    <textarea name="message" id="message" cols="30" rows="5"
+                        placeholder="Type your massage..."></textarea><br><br>
+                    <button type="button" id="submitButton">SEND</button>
+                </form><br><br>
+            </div>
+        </div>
+    </section>
+    <section id="desk">
+        <div class="store-detail">
+            <p>Toko kami selalu menyediakan berbagai macam kebutuhan-kebutuhan pangan anda, tentunya dengan kualitas
+                yang tidak dimiliki ditempat lain seperti</p>
+            <div class="product-advantages">
+                <h1>1</h1>
+                <div>
+                    <h3>Harga Murah</h3>
+                    <p>Toko kami selalu memberikan harga terbaik di pasaran</p>
+                </div>
+            </div>
+            <div class="product-advantages">
+                <h1>2</h1>
+                <div>
+                    <h3>High Quality</h3>
+                    <p>Kami selalu menyediakan produk dengan harga murah dan dengan kualitas yang tidak biasa</p>
+                </div>
+            </div>
+            <div class="product-advantages">
+                <h1>3</h1>
+                <div>
+                    <h3>Halal</h3>
+                    <p>Produk yang kami sediakan pasti selalu terjamin halal dan sudah memiliki sertfikasi MUI</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="OurPackages">
+        <h1>Our Package</h1>
+        <div id="OurPackages-detail">
+            <div id="OurPackages-detail-first">
+                <div id="ourpackage">
+                    <div class="ourpackage-image">
+                        <img src="img/vegetables.png" alt="">
+                    </div>
+                    <div class="ourpackage-text">
+                        <h1>Fresh Vegetable</h1>
+                        <p>Sayuran segar langsung dari sumber pertanian</p>
+                    </div>
+                </div>
+                <div id="ourpackage">
+                    <div class="ourpackage-image">
+                        <img src="img/fruit.png" alt="">
+                    </div>
+                    <div class="ourpackage-text">
+                        <h1>Fresh Fruit</h1>
+                        <p>Buah dengan kualitas terbaik dari local atau import dan harga yang menarik</p>
+                    </div>
+                </div>
+                <div id="ourpackage">
+                    <div class="ourpackage-image">
+                        <img src="img/meat.png" alt="">
+                    </div>
+                    <div class="ourpackage-text">
+                        <h1>Fresh Meat</h1>
+                        <p>Daging segar dipotong dari peternakan terbaik dengan kualitas terbaik</p>
+                    </div>
+                </div>
+            </div>
+            <div id="OurPackages-detail-second">
+                <div id="ourpackage">
+                    <div class="ourpackage-image">
+                        <img src="img/bread & bakery.png" alt="">
+                    </div>
+                    <div class="ourpackage-text">
+                        <h1>Bread & Bakery</h1>
+                        <p>Roti dan berbagai macam olahan kue kering maupun basah</p>
+                    </div>
+                </div>
+                <div id="ourpackage">
+                    <div class="ourpackage-image">
+                        <img src="img/beverages.png" alt="">
+                    </div>
+                    <div class="ourpackage-text">
+                        <h1>Beverage</h1>
+                        <p>Berbagai macam jenis minuman kami sediakan</p>
+                    </div>
+                </div>
+                <div id="ourpackage">
+                    <div class="ourpackage-image">
+                        <img src="img/snacks.png" alt="">
+                    </div>
+                    <div class="ourpackage-text">
+                        <h1>Snacks</h1>
+                        <p>Berbagai macam jajanan ringan pun kami sediakan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="CallUs">
+        <div id="CallUs-head">
+            <h1>Hubungi kami sekarang untuk kemudahan dan kenyamanan berbelanja anda</h1>
+            <p>Nikmati pengalaman berbelanja yang efisien, pilihan produk yang luas, dan pengiriman yang cepat. Belanja
+                oline yang praktis dan menyenangkan hanya dengan satu panggilan.</p>
+        </div>
+        <div id="CallUs-foot">
+            <a href="https://www.instagram.com/septyanagstn/?hl=id">
+                <button id="foot-call"><b>Hubungi Sekarang</b></button>
+            </a>
+        </div>
+    </section>
+    <footer id="footer">
+        <a href="index.html">
+            <img src="img/logo.png" alt="">
+        </a>
+        <div>
+            <p>Terms of Service</p>
+            <p>Privacy Policy</p>
+        </div>
+        <p>© 2023 Smart Shopping</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
 
-        <p>
-            <a href="https://www.instagram.com/asrihusnull/?hl=id">Kepo kan pencet aku</a>
-        </p>
-    </body>
 </html>
